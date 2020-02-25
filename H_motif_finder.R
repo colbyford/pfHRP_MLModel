@@ -95,8 +95,8 @@ for(i in typenames){
 
 for (i in 1:nrow(fastas_df)){
   for (j in 1:nrow(motifs)){
-    fastas_df[i,paste0("Type_",motifs$Type[j])] <- motif.find(motifs$Sequence[j],
-                                   fastas_df$aa_sequence[i]) %>%
+    fastas_df[i,paste0("Type_",motifs$Type[j])] <- motif.find(motifs$Sequence[j], fastas_df$aa_sequence[i]) %>%
+      Filter(function(i) i >= 0, .) %>% ## Remove reverse matches (e.g. -12)
       length()
   }
 }
