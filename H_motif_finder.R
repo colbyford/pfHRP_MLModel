@@ -39,6 +39,10 @@ colnames(fastas_df) <- c("id", "path", "dna_sequence")
 ## Extract gene from path
 fastas_df$gene <- str_extract(fastas_df$path,"(pf[A-Za-z0-9]+)")
 
+## Align DNA Sequences
+library(msa)
+aligned <- msa(fastas, method = "ClustalOmega", verbose = TRUE)
+
 ## Translate DNA sequence to Amino Acids
 fastas_df$aa_sequence <- fastas_df$dna_sequence %>% DNAStringSet() %>% translate(if.fuzzy.codon="solve")
 
