@@ -4,6 +4,7 @@
 ###################################
 
 library(Biostrings)
+library(ape)
 library(bio3d)
 library(dplyr)
 library(readr)
@@ -44,8 +45,18 @@ library(msa)
 aligned <- msa(fastas, method = "ClustalOmega", verbose = TRUE)
 
 ## Translate DNA sequence to Amino Acids
-fastas_df$aa_sequence <- fastas_df$dna_sequence %>% DNAStringSet() %>% translate(if.fuzzy.codon="solve")
+fastas_df$aa_sequence <- fastas_df$dna_sequence %>% DNAStringSet() %>% Biostrings::translate(if.fuzzy.codon="solve")
+# fastas_df$aa_sequence <- fastas_df$dna_sequence %>% ape::as.DNAbin() %>% ape::trans()
 
+seqinr_translate <- function(seq){
+  output <- seq %>%
+    seqinr::s2c() %>%
+    seqinr::translate(numcode = 4, ambiguous = TRUE) %>%
+    paste0(collapse = "")
+  
+  return(output)
+}
+fastas_df$aa_sequence_seqinr <- lapply(fastas_df$dna_sequence, seqinr_translate)
 
 ## Read in Motif reference
 motifs <- read_csv("Baker_AA_Repeats.csv")
