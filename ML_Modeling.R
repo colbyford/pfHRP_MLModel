@@ -17,9 +17,9 @@ all_hrps <- hrp2s %>% full_join(hrp3s, by = "id", suffix = c("_pfhrp2", "_pfhrp3
 metadata <- read_csv("metadata.csv")
 
 ## Join Together
-# full_df <- fastas_df %>%
+full_df <- fastas_df %>%
 # full_df <- all_hrps %>%
-full_df <- hrp2s %>%
+# full_df <- hrp2s %>%
   na.omit() %>% ## Comment out to include missing values
   inner_join(metadata, by = c("id" = "Id")) %>% 
   mutate_at(c("workLiving",
