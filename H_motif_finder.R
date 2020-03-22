@@ -45,7 +45,8 @@ fastas_df$gene <- str_extract(fastas_df$path,"(pf[A-Za-z0-9]+)")
 
 ## Translate DNA sequence to Amino Acids
 # fastas_df$aa_sequence <- fastas_df$dna_sequence %>% DNAStringSet() %>% translate(if.fuzzy.codon="solve")
-fastas_df <- readxl::read_xlsx("pfHRP2_withMeta_ExPASy.xlsx") %>% select(id, dna_sequence, ExPASy_aa_sequence)
+# fastas_df <- readxl::read_xlsx("pfHRP2_withMeta_ExPASy.xlsx") %>% select(id, dna_sequence, ExPASy_aa_sequence)
+fastas_df <- readxl::read_xlsx("pfHRP2_Exon_2_ExPASy.xlsx") %>% select(id, dna_sequence, ExPASy_aa_sequence)
 colnames(fastas_df) <- c("id","dna_sequence","aa_sequence")
 
 
