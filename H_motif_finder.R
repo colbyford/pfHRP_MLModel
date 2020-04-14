@@ -4,6 +4,7 @@
 ###################################
 
 library(Biostrings)
+library(ape)
 library(bio3d)
 library(dplyr)
 library(readr)
@@ -11,7 +12,7 @@ library(purrr)
 library(stringr)
 
 # HShr122 <- DNAString("TTATTACACGAAACTCAAGCACATGTAGATGATGCCCATCATGCTCATCATGTAGCCGATGCCCATCATGCTCATCATGTAGCCGATGCCCATCATGCTCATCATGCAGCCGATGCCCATCATGCTCATCATGCAGCCGATGCCCATCATGCTCATCATGCAGCCTATGCCCATCATGCTCATCATGCAGCCGATGCTCACCATGCAACCGATGCTCATCATGCAGCCGATGCTCACCATGCAGCCGATGCTCACCATGCAACCGATGCTCATCACGCTCATCATGCAGCCGATGCCCATCACGCTCACCATGCAGCCGATGCTCATCAYGCTCATCATGCAGCCGATGCCCATCATGCTCATCATGCAGCCGATGCCCATCATGCTCATCATGCAGCCGATGCCCATCATGCTCACCATGCAGCTGATGCTCATCACGCTCATCATGCAGCCGATGCCCATCATGCTCATCATGCAGCCTATGCCCATCATGCTCATCATGCATCCGATGCTCATCATGCAGCTGATGCTCACCATGCAGCTTATGCCCATCACGCTCATCATGCAGCTGATGCTCATCATGCAGCCGATGCTCACCATGCAACCGATGCTCATCACGCTCACCATGCAGCCGATGCTCACCATGCAACCGATGCTCATCATGCAGCCGATGCTCACCATGCAGCCGATGCTCACCATGCAGCCGATGCTCATCATGCAGCCGCACACCATGCAACTGATGCTCACCATGCAGCCGCACACCATGCAACCGATG")
-# 
+#
 # HShr122_aa <- translate(HShr122, if.fuzzy.codon="solve")
 
 
@@ -52,7 +53,7 @@ colnames(fastas_df) <- c("id","dna_sequence","aa_sequence")
 
 ## Fix to use trimmed sequence if necessary
 # fastas_df <- readxl::read_xlsx("pfHRP2_Exon_2_ExPASy.xlsx") %>%
-#   mutate(aa_sequence = ifelse(trimmed_ExPASy_aa_sequence == "n/a", ExPASy_aa_sequence, trimmed_ExPASy_aa_sequence)) %>% 
+#   mutate(aa_sequence = ifelse(trimmed_ExPASy_aa_sequence == "n/a", ExPASy_aa_sequence, trimmed_ExPASy_aa_sequence)) %>%
 #   select(id, dna_sequence, aa_sequence)
 
 
@@ -65,40 +66,40 @@ typenames <- paste0("Type_", motifs$Type)
 for(i in typenames){
   fastas_df[,i] <- NA
 }
-  
+
 
 # type4_motif <- c("AHH")
-# 
+#
 # map(motifs$AA_Repeats, function(x) length(motif.find(x, HShr122_aa)))
-# 
+#
 # length(motif.find(type4_motif, HShr122_aa))
 
-# 
+#
 # count_motifs <- function(data, motifs, motif_column = NULL, motif_name_column = NULL){
 #   motif_list <- motifs[[motif_column]]
 #   motif_names <- motifs[[motif_name_column]]
-#   
+#
 #   output <- map(motif_list, function(x) length(motif.find(x, data))) %>%
 #     as.data.frame()
-#   
+#
 #   typenames <- paste0(motif_name_column, "_", motif_names)
-#   
+#
 #   colnames(output) <- typenames
 #   return(output)
 # }
-# 
+#
 # ## Test
 # # count_motifs(data = HShr122_aa, motifs = motifs, motif_column = "AA_Repeats", motif_name_column = "Type")
 # count_motifs(data = fastas_df$sequence[1], motifs = motifs, motif_column = "AA_Repeats", motif_name_column = "Type")
-# 
-# 
+#
+#
 # for (i in 1:nrow(fastas_df)){
-#   
+#
 #    fastas_df[i,4:21] <- count_motifs(data = fastas_df$sequence[i],
 #                                             motifs = motifs,
 #                                             motif_column = "AA_Repeats",
 #                                             motif_name_column = "Type")
-#   
+#
 # }
 
 
@@ -129,7 +130,7 @@ full_df <- fastas_df %>%
   # full_df <- all_hrps %>%
   # full_df <- hrp2s %>%
   na.omit() %>% ## Comment out to include missing values
-  inner_join(metadata, by = c("id" = "Id")) %>% 
+  inner_join(metadata, by = c("id" = "Id")) %>%
   mutate_at(c("workLiving",
               "Address",
               "ResultBF",
