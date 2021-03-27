@@ -22,6 +22,7 @@ Malaria, predominantly caused by _Plasmodium falciparum_, poses one of largest a
 
 In this work, we use a dataset of 406 _P. falciparum_ PfHRP2 genetic sequences collected in Ethiopia and derived a larger set of motif repeat matches for use in generating a series of diagnostic machine learning models. Here we show that the usage of additional and different motif repeats proves effective in predicting infection. Furthermore, we use machine learning model explanability methods to highlight which of the repeat types are most important, thereby suggesting potential targets for future versions of rapid diagnostic tests.
 
+
 ## Important Supplementary Data
 - Model metrics for all trained models are in the [/models](/models) folder. Note: The top performaing models' .pkl files are also available.
 - PfHRP2 sample sequences, motif matches, and metadata are available in the [pfHRP2_withMeta.csv](pfHRP2_withMeta.csv) file.
