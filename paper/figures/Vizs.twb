@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0614.2321                               -->
+<workbook original-version='18.1' source-build='2020.1.5 (20201.20.0614.2321)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='font-family' value='Arial' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='DNA - Test Matches (paper_tables)' inline='true' name='federated.0e6ofi3114s68f18ojkgn15q1dwh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='paper_tables' name='excel-direct.0imai1l1y60xed13hbqdm14wvpbx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Colby/Documents/GitHub/pfHRP_MLModel/paper_tables.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0imai1l1y60xed13hbqdm14wvpbx' name='DNA - Test Matches' table='[&apos;DNA - Test Matches$&apos;]' type='table'>
+          <columns gridOrigin='A1:G101:no:A1:G101:0' header='yes' outcome='6'>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='integer' name='PfHRP2' ordinal='1' />
+            <column datatype='integer' name='Parasitemia' ordinal='2' />
+            <column datatype='real' name='Pf18sqPCR' ordinal='3' />
+            <column datatype='integer' name='qPCRcateg34' ordinal='4' />
+            <column datatype='integer' name='paradencateg' ordinal='5' />
+            <column datatype='string' name='DNA_id' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PfHRP2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PfHRP2]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>PfHRP2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parasitemia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Parasitemia]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>Parasitemia</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pf18sqPCR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pf18sqPCR]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>Pf18sqPCR</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qPCRcateg34</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[qPCRcateg34]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>qPCRcateg34</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>paradencateg</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[paradencateg]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>paradencateg</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DNA_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DNA_id]</local-name>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias>DNA_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[DNA - Test Matches]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G101:no:A1:G101:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='DNA id' datatype='string' name='[DNA_id]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Parasitemia (bin)' datatype='integer' name='[Parasitemia (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='3' formula='[Parasitemia]' peg='0' size='1122' />
+      </column>
+      <column datatype='integer' name='[Parasitemia]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[PfHRP2]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='1' value='+ (id: 1)' />
+          <alias key='2' value='- (id: 2)' />
+        </aliases>
+      </column>
+      <column caption='Paradencateg' datatype='integer' name='[paradencateg]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.463605' measure-ordering='alphabetic' measure-percentage='0.536395' show-aliased-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Parasitemia Boxplot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='DNA - Test Matches (paper_tables)' name='federated.0e6ofi3114s68f18ojkgn15q1dwh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0e6ofi3114s68f18ojkgn15q1dwh'>
+            <column caption='Parasitemia (bin)' datatype='integer' name='[Parasitemia (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='3' formula='[Parasitemia]' peg='0' size='1122' />
+            </column>
+            <column datatype='integer' name='[Parasitemia]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[PfHRP2]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='1' value='+ (id: 1)' />
+                <alias key='2' value='- (id: 2)' />
+              </aliases>
+            </column>
+            <column-instance column='[Parasitemia (bin)]' derivation='None' name='[none:Parasitemia (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[PfHRP2]' derivation='None' name='[none:PfHRP2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Parasitemia]' derivation='Sum' name='[sum:Parasitemia:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[sum:Parasitemia:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[sum:Parasitemia:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[sum:Parasitemia:qk]' value='false' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='boxplot-style' id='refline0' value='classic-two-tone' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:PfHRP2:ok]' />
+              <lod column='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:Parasitemia (bin):ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[sum:Parasitemia:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[sum:Parasitemia:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0e6ofi3114s68f18ojkgn15q1dwh].[sum:Parasitemia:qk]</cols>
+      </table>
+      <simple-id uuid='{ECD80B6C-97C2-4CEF-9DE9-CE53BBA992E6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Parasitemia Boxplot Dashboard'>
+      <style />
+      <size maxheight='200' maxwidth='800' minheight='200' minwidth='800' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='92000' id='7' param='horz' type='layout-flow' w='98000' x='1000' y='4000'>
+            <zone h='92000' id='5' type='layout-basic' w='98000' x='1000' y='4000'>
+              <zone h='92000' id='3' name='Parasitemia Boxplot' show-title='false' w='98000' x='1000' y='4000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='29000' id='8' name='Parasitemia Boxplot' pane-specification-id='0' param='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:PfHRP2:ok]' type='color' w='17500' x='72500' y='12000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='92000' id='9' param='vert' type='layout-flow' w='98000' x='1000' y='4000'>
+                <zone fixed-size='176' h='92000' id='3' is-fixed='true' name='Parasitemia Boxplot' show-title='false' w='98000' x='1000' y='4000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='29000' id='8' name='Parasitemia Boxplot' pane-specification-id='0' param='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:PfHRP2:ok]' type='color' w='17500' x='72500' y='12000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3A283338-97DF-4CB5-A4EA-363B770E511F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Parasitemia Boxplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:PfHRP2:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:Parasitemia (bin):ok]</field>
+            <field>[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:Parasitemia:qk]</field>
+            <field>[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:PfHRP2:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{16D2FC09-8DCD-4949-8A96-F3647401A6D9}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Parasitemia Boxplot Dashboard'>
+      <viewpoints>
+        <viewpoint name='Parasitemia Boxplot'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0e6ofi3114s68f18ojkgn15q1dwh].[none:PfHRP2:ok]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B0F7ACD9-EF3E-43FC-B339-55AABCC32A5F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='73' name='Parasitemia Boxplot' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Parasitemia Boxplot Dashboard' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
