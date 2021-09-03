@@ -4,6 +4,8 @@
 
 __medRxiv Preprint:__ [medrxiv.org/content/10.1101/2020.05.27.20114785v2](https://www.medrxiv.org/content/10.1101/2020.05.27.20114785v2)
 
+__Frontiers in Tropical Diseases:__ _Coming soon..._
+
 ```
 @article {Ford2020.05.27.20114785,
 	author = {Ford, Colby T and Alemayehu, Gezahegn and Blackburn, Kayla and Lopez, Karen and Dieng, Cheikh Cambel and Lo, Eugenia and Golassa, Lemu and Janies, Daniel},
