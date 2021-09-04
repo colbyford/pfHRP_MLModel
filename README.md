@@ -2,9 +2,9 @@
 
 <h3 align = "right">Colby T. Ford, Gezahegn Alemayehu,<br>Kayla Blackburn, Karen Lopez, Cheikh Cambel Dieng,<br>Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
 
-__medRxiv Preprint:__ [medrxiv.org/content/10.1101/2020.05.27.20114785v2](https://www.medrxiv.org/content/10.1101/2020.05.27.20114785v2)
-
 __Frontiers in Tropical Diseases:__ _Coming soon..._
+
+__medRxiv Preprint:__ [medrxiv.org/content/10.1101/2020.05.27.20114785v2](https://www.medrxiv.org/content/10.1101/2020.05.27.20114785v2)
 
 ```
 @article {Ford2020.05.27.20114785,
