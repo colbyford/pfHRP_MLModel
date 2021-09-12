@@ -1,6 +1,6 @@
 # Modeling _Plasmodium falciparum_ Diagnostic Test Sensitivity using Machine Learning with Histidine-Rich Protein 2 Variants
 
-<h3 align = "right">Colby T. Ford, Gezahegn Alemayehu,<br>Kayla Blackburn, Karen Lopez, Cheikh Cambel Dieng,<br>Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
+<h3 align = "right">Colby T. Ford, Gezahegn Alemayehu, Kayla Blackburn, Karen Lopez,<br>Cheikh Cambel Dieng, Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
 
 __Frontiers in Tropical Diseases:__ _Coming soon..._
 
