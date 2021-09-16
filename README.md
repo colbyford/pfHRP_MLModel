@@ -2,18 +2,20 @@
 
 <h3 align = "right">Colby T. Ford, Gezahegn Solomon Alemayehu, Kayla Blackburn, Karen Lopez,<br>Cheikh Cambel Dieng, Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
 
-__Frontiers in Tropical Diseases:__ _Coming soon..._
+__Frontiers in Tropical Diseases:__ _In Press - URL Coming soon..._
 
 ```
 @article {Ford2021,
 	author = {Ford, Colby T. and Alemayehu, Gezahegn Solomon and Blackburn, Kayla and Lopez, Karen and Dieng, Cheikh Cambel and Lo, Eugenia and Golassa, Lemu and Janies, Daniel},
 	title = {Modeling Plasmodium falciparum Diagnostic Test Sensitivity using Machine Learning with Histidine-Rich Protein 2 Variants},
 	year = {2021},
-	doi = {10.3389/fitd.2021.707313},
 	publisher = {Frontiers},
+	journal = {Frontiers in Tropical Diseases},
 	volume = {2},
-	URL = {TBD},
-	journal = {Frontiers Tropical Diseases}
+	paper = {707313},
+	doi = {10.3389/fitd.2021.707313},
+	URL = {TBD}
+	
 }
 ```
 
