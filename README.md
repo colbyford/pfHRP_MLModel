@@ -1,19 +1,19 @@
 # Modeling _Plasmodium falciparum_ Diagnostic Test Sensitivity using Machine Learning with Histidine-Rich Protein 2 Variants
 
-<h3 align = "right">Colby T. Ford, Gezahegn Alemayehu, Kayla Blackburn, Karen Lopez,<br>Cheikh Cambel Dieng, Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
+<h3 align = "right">Colby T. Ford, Gezahegn Solomon Alemayehu, Kayla Blackburn, Karen Lopez,<br>Cheikh Cambel Dieng, Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
 
 __Frontiers in Tropical Diseases:__ _Coming soon..._
 
 ```
 @article {Ford2021,
-	author = {Ford, Colby T and Alemayehu, Gezahegn and Blackburn, Kayla and Lopez, Karen and Dieng, Cheikh Cambel and Lo, Eugenia and Golassa, Lemu and Janies, Daniel},
+	author = {Ford, Colby T. and Alemayehu, Gezahegn Solomon and Blackburn, Kayla and Lopez, Karen and Dieng, Cheikh Cambel and Lo, Eugenia and Golassa, Lemu and Janies, Daniel},
 	title = {Modeling Plasmodium falciparum Diagnostic Test Sensitivity using Machine Learning with Histidine-Rich Protein 2 Variants},
 	year = {2021},
-	doi = {TBD},
+	doi = {10.3389/fitd.2021.707313},
 	publisher = {Frontiers},
+	volume = {2},
 	URL = {TBD},
-	eprint = {TBD},
-	journal = {Frontiers in Tropical Diseases}
+	journal = {Frontiers Tropical Diseases}
 }
 ```
 
