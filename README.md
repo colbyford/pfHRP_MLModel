@@ -22,13 +22,16 @@ __Frontiers in Tropical Diseases:__ [frontiersin.org/articles/10.3389/fitd.2021.
 @article {Ford2021,
 	author = {Ford, Colby T. and Alemayehu, Gezahegn Solomon and Blackburn, Kayla and Lopez, Karen and Dieng, Cheikh Cambel and Lo, Eugenia and Golassa, Lemu and Janies, Daniel},
 	title = {Modeling Plasmodium falciparum Diagnostic Test Sensitivity using Machine Learning with Histidine-Rich Protein 2 Variants},
-	year = {2021},
 	publisher = {Frontiers},
 	journal = {Frontiers in Tropical Diseases},
 	volume = {2},
+	pages = {28},
+	month = {October},
+	year = {2021},
 	paper = {707313},
 	doi = {10.3389/fitd.2021.707313},
-	URL = {TBD}
+	url = {https://www.frontiersin.org/article/10.3389/fitd.2021.707313},
+	issn = {2673-7515}
 	
 }
 ```
