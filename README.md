@@ -18,7 +18,7 @@ __Frontiers in Tropical Diseases:__ [frontiersin.org/articles/10.3389/fitd.2021.
 	
 }
 ```
-
+<!--
 __medRxiv Preprint:__ [medrxiv.org/content/10.1101/2020.05.27.20114785v2](https://www.medrxiv.org/content/10.1101/2020.05.27.20114785v2)
 
 ```
@@ -34,6 +34,7 @@ __medRxiv Preprint:__ [medrxiv.org/content/10.1101/2020.05.27.20114785v2](https:
 	journal = {medRxiv}
 }
 ```
+-->
 
 ## Abstract
 Malaria, predominantly caused by _Plasmodium falciparum_, poses one of largest and most durable health threats in the world. Previously, simplistic regression-based models have been created to characterize malaria rapid diagnostic test performance, though these models often only include a couple genetic factors. Specifically, the Baker et al., 2005 model uses two types of particular repeats in histidine-rich protein 2 (PfHRP2) to describe a _P. falciparum_ infection, though the efficacy of this model has waned over recent years due to genetic mutations in the parasite.
