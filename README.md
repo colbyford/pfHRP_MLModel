@@ -2,7 +2,7 @@
 
 <h3 align = "right">Colby T. Ford, Gezahegn Solomon Alemayehu, Kayla Blackburn, Karen Lopez,<br>Cheikh Cambel Dieng, Eugenia Lo, Lemu Golassa, and Daniel Janies</h3>
 
-__Frontiers in Tropical Diseases:__ _In Press - URL Coming soon..._
+__Frontiers in Tropical Diseases:__ [frontiersin.org/articles/10.3389/fitd.2021.707313](https://www.frontiersin.org/articles/10.3389/fitd.2021.707313/full)
 
 ```
 @article {Ford2021,
