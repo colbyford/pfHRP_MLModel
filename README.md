@@ -9,7 +9,7 @@ In this work, we use a dataset of 100 _P. falciparum_ PfHRP2 genetic sequences c
 
 
 ## Important Supplementary Data
-- Model metrics for all trained models are in the [/models](/models) folder. Note: The top performaing models' .pkl files are also available.
+- Model metrics for all trained models are in the [/models](/models) folder. Note: The top performing models' .pkl files are also available.
 - PfHRP2 sample sequences, motif matches, and metadata are available in the [pfHRP2_withMeta.csv](pfHRP2_withMeta.csv) file.
 - The histidine-based motif repeat finder is provided in the [H_motif_finder.R](H_motif_finder.R) R script.
 
