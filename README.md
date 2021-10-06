@@ -14,6 +14,8 @@ In this work, we use a dataset of 100 _P. falciparum_ PfHRP2 genetic sequences c
 - The histidine-based motif repeat finder is provided in the [H_motif_finder.R](H_motif_finder.R) R script.
 
 
+-----------
+
 ## Paper and Citation
 
 __Frontiers in Tropical Diseases:__ [frontiersin.org/articles/10.3389/fitd.2021.707313](https://www.frontiersin.org/articles/10.3389/fitd.2021.707313/full)
